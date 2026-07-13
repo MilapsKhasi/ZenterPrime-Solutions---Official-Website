@@ -12,4 +12,8 @@ function recomputeSavings() {
     hoursDisplay.textContent = computedSavings;
 }
 
-billSlider.addEventListener('input', recomputeSavings);
+const startTrial = document.getElementById('startTrial');
+
+startTrial.addEventListener('click', () => {
+    alert('Thank you for your interest! The free trial feature is currently under development. Please check back soon for updates.');
+});
