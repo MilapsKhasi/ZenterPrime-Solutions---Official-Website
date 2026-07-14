@@ -322,3 +322,78 @@ footer {
     padding: 16px;
     border-radius: 8px;
 }
+
+/* Pricing Section */
+
+.pricing-section {
+    padding: 90px 20px;
+    background: #fff;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.pricing-card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 35px;
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.popular {
+    border: 2px solid var(--primary);
+}
+
+.badge {
+    display: inline-block;
+    background: var(--primary);
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 50px;
+    font-size: .8rem;
+    font-weight: 600;
+    margin-bottom: 18px;
+    width: fit-content;
+}
+
+.pricing-card h3 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin-bottom: 25px;
+}
+
+.price span {
+    font-size: 1rem;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.pricing-features {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.pricing-features li {
+    padding: 10px 0;
+    color: var(--text-muted);
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.pricing-btn {
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+}
