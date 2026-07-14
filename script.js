@@ -11,9 +11,3 @@ function recomputeSavings() {
     const computedSavings = (billCount * 0.15).toFixed(1);
     hoursDisplay.textContent = computedSavings;
 }
-
-const startTrial = document.getElementById('startTrial');
-
-startTrial.addEventListener('click', () => {
-    alert('Thank you for your interest! The free trial feature is currently under development. Please check back soon for updates.');
-});
