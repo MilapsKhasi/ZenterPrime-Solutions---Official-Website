@@ -57,3 +57,13 @@ yearlyBtn.addEventListener("click", () => {
     });
 
 });
+
+const startTrial = document.getElementById("startTrial");
+
+if (startTrial) {
+    startTrial.addEventListener("click", () => {
+        alert(
+            "Thank you for your interest in ZenterPrime.\n\nThe 14-Day Evaluation Edition will be available soon."
+        );
+    });
+}
